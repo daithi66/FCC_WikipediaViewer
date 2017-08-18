@@ -1,0 +1,18 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("p").click(function(){
+        $(this).hide();
+    });
+});
+</script>
+<div id="leftSide">
+  <img src="http://gordonua.com/img/article/949/62_main.png" />
+  <a href="https://en.wikipedia.org/wiki/Special:Random" id="surpriseMe" target="_blank">Surprise Me</a>
+</div>
+<div id="rightSide">
+  <h1>Wikipedia Viewer</h1>
+  <input type="text" id="searchBox" size="100"></input>
+  <button id="searchBtn">Search</button>
+  <ul id="wikiEntries"></ul>
+</div>
